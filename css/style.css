@@ -75,7 +75,7 @@
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 115px;
   position: relative;
   z-index: 1;
 }
@@ -260,6 +260,10 @@
   display: block;
   margin: 0 auto;
 }
+
+#es-sodastream.es-sodastream .es-triple__img--center {
+  max-width: calc(100vw + 275px);
+}
 #es-sodastream.es-sodastream .es-slider {
   margin: 64px 0 0;
   padding-bottom: 64px;
@@ -440,18 +444,6 @@
   margin-bottom: 20px;
 }
 
-#es-sodastream.es-sodastream .es-vitamins__badges {
-  margin: 0;
-  padding: 0;
-  line-height: inherit;
-  color: inherit;
-  font-family: inherit;
-  font-weight: inherit;
-  font-size: 28px;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
-  text-align: center;
-}
-
 #es-sodastream.es-sodastream .es-vitamins__title {
   margin: 0;
   padding: 0;
@@ -481,7 +473,12 @@
   font-weight: inherit;
   font-size: 16px;
   font-family: "HurmeGeometricSans3-Light", sans-serif;
-  text-align: center;
+  text-align: left;
+}
+
+#es-sodastream.es-sodastream .es-vitamins__badge {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 #es-sodastream.es-sodastream .es-vitamins__footer {
@@ -553,6 +550,9 @@
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+  }
+  #es-sodastream.es-sodastream .es-triple__img--center {
+    max-width: 100%;
   }
   #es-sodastream.es-sodastream .es-video__subtitle {
     font-size: 50px;
@@ -667,11 +667,6 @@
     display: block;
     padding: 60px 0;
   }
-  #es-sodastream.es-sodastream .es-vitamins__badges {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-  }
   #es-sodastream.es-sodastream .es-vitamins__badge {
     position: absolute;
     width: 160px;
@@ -684,27 +679,28 @@
     text-align: center;
   }
   .es-vitamins__badge--b3 {
-    top: 14%;
-    left: -50px;
+    top: 18%;
+    right: -123px;
     align-items: start;
     padding-left: 21px;
-    font-size: 50px;
+    font-size: 50px !important;
+    transform: scale(1.1);
   }
   .es-vitamins__badge--b6 {
-    top: 28%;
-    right: -27px;
-    transform: scale(1.2);
+    top: 30%;
+    right: -354px;
+    transform: scale(1.4);
     align-items: end;
     padding-right: 18px;
-    font-size: 50px;
+    font-size: 50px !important;
   }
   .es-vitamins__badge--zinc {
-    bottom: 21%;
-    left: -57px;
-    transform: scale(1.5);
+    bottom: 20%;
+    left: -387px;
+    transform: scale(1.6);
     align-items: start;
     padding-left: 12px;
-    font-size: 38px;
+    font-size: 38px !important;
   }
   #es-sodastream.es-sodastream .es-vitamins__badge span {
     font-size: 20px;
@@ -731,7 +727,7 @@
     text-align: right !important;
   }
   #es-sodastream.es-sodastream .es-vitamins__footer {
-    margin-top: -40px;
+    margin-top: -20px;
   }
 
   #es-sodastream.es-sodastream .es-video__subtitle {
@@ -772,7 +768,7 @@
   }
   #es-sodastream.es-sodastream .es-kv__bgtitle {
     position: absolute;
-    top: 40px;
+    top: -10px;
     left: -27%;
     padding: 15px;
     font-size: 200px;
