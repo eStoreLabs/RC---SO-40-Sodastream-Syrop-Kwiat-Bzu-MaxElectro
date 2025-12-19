@@ -643,6 +643,10 @@
   #es-sodastream.es-sodastream .es-video__subtitle {
     font-size: 60px;
   }
+  
+  #es-sodastream.es-sodastream .es-video__title {
+    font-size: 36px;
+  }
 }
 @media screen and (min-width: 998px) {
   #es-sodastream.es-sodastream .es-kv {
@@ -806,9 +810,6 @@
   }
   #es-sodastream.es-sodastream .es-vitamins__text {
     font-size: 20px;
-  }
-  #es-sodastream.es-sodastream .es-video__title {
-    font-size: 36px;
   }
 }
 
